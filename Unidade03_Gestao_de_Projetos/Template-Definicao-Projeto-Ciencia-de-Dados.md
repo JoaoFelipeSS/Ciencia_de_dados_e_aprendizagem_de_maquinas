@@ -44,11 +44,17 @@ ________________________________________________________________________________
 ### 3.1 Contexto
 
 Descreva a situação atual, o ambiente em que o problema ocorre e as evidências iniciais que demonstram sua relevância.
+A digitalização dos serviços públicos ampliou a possibilidade de acesso a informações e serviços por meio da internet. Entretanto, a disponibilidade de um serviço digital não garante que ele seja fácil de compreender e utilizar por diferentes públicos. A população idosa pode encontrar dificuldades relacionadas à leitura, navegação, organização das informações, contraste e utilização de recursos de acessibilidade.
+O projeto analisará portais governamentais municipais, considerando especialmente a experiência do usuário idoso. A investigação será realizada por meio da observação sistemática das interfaces e da comparação com critérios técnicos e normativos de acessibilidade e usabilidade.
 
 - Onde o problema ocorre?
+  Em portais governamentais municipais disponibilizados na internet.
 - Quem é afetado?
+  Principalmente usuários idosos que utilizam ou precisam utilizar serviços públicos digitais.
 - Quais sinais, dados ou relatos indicam sua existência?
+  Possíveis dificuldades relacionadas à legibilidade, navegação, organização, contraste, clareza das informações e recursos de acessibilidade, que serão investigadas durante o projeto.
 - Por que é importante investigá-lo agora?
+  Porque os serviços públicos estão cada vez mais disponíveis digitalmente, tornando relevante verificar se suas interfaces consideram diferentes necessidades de usuários.
 
 **Preenchimento:**
 

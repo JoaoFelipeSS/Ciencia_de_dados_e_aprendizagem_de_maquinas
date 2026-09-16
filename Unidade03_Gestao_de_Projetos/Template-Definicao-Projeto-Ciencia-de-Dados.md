@@ -66,7 +66,7 @@ ________________________________________________________________________________
 
 Formule o problema de maneira específica, sem antecipar uma solução.
 
-> **Modelo:** [Público/organização] enfrenta [problema observável] no contexto de [situação], produzindo [consequência ou impacto].
+> Usuários idosos podem enfrentar dificuldades de usabilidade e acessibilidade ao utilizar portais governamentais municipais, especialmente em situações relacionadas à navegação, legibilidade, organização e compreensão das informações, o que pode dificultar o acesso e a utilização dos serviços públicos digitais..
 
 **Problema definido:**
 

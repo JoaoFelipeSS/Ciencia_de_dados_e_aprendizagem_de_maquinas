@@ -10,20 +10,20 @@
 
 | Campo | Preenchimento |
 |---|---|
-| Título provisório do projeto | |
+| Título do projeto |Usabilidade e acessibilidade de portais governamentais municipais para idosos |
 | Curso / disciplina |Ciencia de Dados e aprendizagem de maquina |
 | Turma | Ciencia de Dados e aprendizagem de maquina|
 | Equipe |João Felipe Soares Silva |
-| Integrantes e funções iniciais | |
+| Integrantes e funções iniciais | João Felipe Soares Silva — pesquisa, coleta e organização dos dados, análise dos portais, aplicação dos critérios de avaliação e elaboração dos resultados|
 | Professor(a) | Kadidja Valeria Reginaldo de Oliveira |
-| Data de elaboração | |
-| Versão do documento | |
+| Data de elaboração |16/09/2026 |
+| Versão do documento |1.0|
 
 ## 2. Visão geral
 
 ### 2.1 Resumo do projeto
 
-Em até 100 palavras, apresente o problema, o público-alvo, a proposta de análise e o resultado esperado.
+O projeto propõe analisar a usabilidade e a acessibilidade de portais governamentais municipais para identificar possíveis barreiras enfrentadas por usuários idosos. Serão observados aspectos como navegação, legibilidade, contraste, organização, clareza das informações e recursos de acessibilidade. A análise será realizada com base em critérios da WCAG 2.1, eMAG 3.1 e princípios de usabilidade. Como resultado, espera-se organizar os dados coletados, comparar os portais analisados e identificar oportunidades de melhoria que possam contribuir para uma experiência de uso mais acessível e adequada ao público idoso.
 
 **Preenchimento:**
 

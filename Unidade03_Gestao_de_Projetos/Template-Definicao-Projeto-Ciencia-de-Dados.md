@@ -33,7 +33,7 @@ ________________________________________________________________________________
 
 ### 2.2 Declaração do projeto em uma frase
 
-> Nosso projeto utilizará **[dados ou fonte]** para compreender/prever **[fenômeno]**, apoiando **[público ou organização]** na decisão de **[decisão ou ação]**.
+Nosso projeto utilizará dados coletados da análise de portais governamentais municipais para compreender possíveis barreiras de usabilidade e acessibilidade para usuários idosos, apoiando a identificação de pontos de melhoria nas interfaces e nos serviços públicos digitais..
 
 **Versão da equipe:**
 

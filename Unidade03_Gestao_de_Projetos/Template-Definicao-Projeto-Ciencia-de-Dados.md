@@ -11,11 +11,11 @@
 | Campo | Preenchimento |
 |---|---|
 | Título provisório do projeto | |
-| Curso / disciplina | |
-| Turma | |
-| Equipe | |
+| Curso / disciplina |Ciencia de Dados e aprendizagem de maquina |
+| Turma | Ciencia de Dados e aprendizagem de maquina|
+| Equipe |João Felipe Soares Silva |
 | Integrantes e funções iniciais | |
-| Professor(a) | |
+| Professor(a) | Kadidja Valeria Reginaldo de Oliveira |
 | Data de elaboração | |
 | Versão do documento | |
 

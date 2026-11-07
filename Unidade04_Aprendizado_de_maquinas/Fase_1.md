@@ -1,0 +1,184 @@
+# EntreTendo
+### Entretenimento que entende você.
+
+Projeto de Ciência de Dados e Aprendizado de Máquina para desenvolver um sistema de recomendação personalizado de **filmes, séries e jogos**, utilizando técnicas de filtragem baseada em conteúdo (*Content-Based Filtering*).
+
+---
+
+# 1. Entendimento do Negócio — Business Understanding
+
+## 1.1. Determinar os objetivos do negócio
+
+### Qual é o objetivo principal do projeto?
+
+Desenvolver um sistema de recomendação capaz de sugerir filmes, séries e jogos de acordo com as características e preferências do usuário, utilizando técnicas de Ciência de Dados e Aprendizado de Máquina.
+
+O projeto busca facilitar a descoberta de novos conteúdos, tornando a experiência de entretenimento mais personalizada.
+
+### Qual problema o projeto pretende resolver?
+
+Atualmente, existe uma grande quantidade de filmes, séries e jogos disponíveis em diferentes plataformas. Diante de tantas opções, os usuários podem encontrar dificuldades para descobrir conteúdos que correspondam aos seus interesses.
+
+O EntreTendo pretende solucionar esse problema por meio de recomendações personalizadas, considerando características dos conteúdos, como gênero, descrição, palavras-chave, categorias e avaliações disponíveis.
+
+### Quem são os principais envolvidos?
+
+- **Usuários finais:** pessoas interessadas em descobrir filmes, séries e jogos.
+- **Desenvolvedor:** responsável pela construção, implementação e manutenção do sistema.
+- **Comunidade acadêmica e profissional:** público interessado em conhecer o projeto como aplicação prática de Ciência de Dados e Aprendizado de Máquina.
+
+### Quem utilizará o sistema?
+
+O sistema será direcionado ao público em geral, sem restrição de idade ou perfil específico. A proposta é permitir que qualquer pessoa encontre recomendações de entretenimento de acordo com seus gostos e interesses.
+
+## 1.2. Avaliar a situação atual
+
+### Quais recursos estão disponíveis?
+
+Para o desenvolvimento do projeto, serão utilizadas ferramentas e tecnologias de análise de dados e aprendizado de máquina.
+
+| Recurso | Finalidade |
+|---|---|
+| Python | Linguagem principal |
+| Jupyter Notebook | Desenvolvimento e exploração dos dados |
+| Pandas | Manipulação dos dados |
+| NumPy | Operações numéricas |
+| Scikit-learn | Implementação dos algoritmos |
+| Matplotlib e Seaborn | Visualização dos dados |
+| Streamlit | Desenvolvimento da interface |
+| Git e GitHub | Versionamento e documentação |
+
+### Quais fontes de dados poderão ser utilizadas?
+
+Serão consideradas fontes públicas e APIs que disponibilizem informações sobre os conteúdos.
+
+- **TMDB:** informações sobre filmes e séries.
+- **RAWG:** informações sobre jogos.
+- **Metacritic:** avaliações e notas da crítica e dos usuários, quando houver dados disponíveis e condições de uso permitidas.
+
+As fontes poderão ser ajustadas durante o desenvolvimento, conforme a disponibilidade, qualidade e viabilidade de acesso aos dados.
+
+### Quais são as principais limitações?
+
+- Disponibilidade e qualidade dos dados nas fontes utilizadas.
+- Diferenças entre os formatos e atributos de filmes, séries e jogos.
+- Possíveis limitações de acesso às APIs.
+- Necessidade de tratamento e padronização dos dados.
+- Dificuldade de avaliar a qualidade das recomendações sem um conjunto de relevância de referência.
+
+### Quais riscos podem afetar o projeto?
+
+- Alterações nas APIs ou indisponibilidade das fontes de dados.
+- Dados incompletos, duplicados ou inconsistentes.
+- Dificuldade de integrar informações de diferentes categorias.
+- Recomendações pouco relevantes devido à qualidade dos atributos disponíveis.
+
+## 1.3. Determinar os objetivos de Mineração de Dados
+
+### Qual será o problema de Ciência de Dados?
+
+Construir um sistema de recomendação que identifique conteúdos semelhantes com base em suas características, permitindo sugerir filmes, séries e jogos que tenham relação com os interesses informados pelo usuário.
+
+### Qual técnica será utilizada?
+
+Será utilizada a técnica de **Filtragem Baseada em Conteúdo (Content-Based Filtering)**.
+
+Essa abordagem analisa as características dos próprios conteúdos para identificar semelhanças e gerar recomendações.
+
+### Quais atributos poderão ser utilizados?
+
+**Filmes e séries:**
+- Gênero;
+- Sinopse;
+- Palavras-chave;
+- Elenco;
+- Diretor;
+- Ano de lançamento;
+- Idioma;
+- Avaliações disponíveis.
+
+**Jogos:**
+- Gênero;
+- Descrição;
+- Plataformas;
+- Desenvolvedora;
+- Publicadora;
+- Data de lançamento;
+- Tags;
+- Avaliações disponíveis.
+
+### Quais algoritmos e técnicas poderão ser aplicados?
+
+- TF-IDF para transformação de informações textuais em representações numéricas.
+- Codificação de variáveis categóricas.
+- Similaridade do Cosseno para calcular a proximidade entre conteúdos.
+- Filtragem e ordenação para apresentar as recomendações mais relevantes.
+
+### Como será o funcionamento esperado?
+
+1. O sistema recebe uma preferência ou um conteúdo de referência informado pelo usuário.
+2. Os dados dos filmes, séries e jogos são preparados e transformados.
+3. O algoritmo calcula a similaridade entre os conteúdos.
+4. Os resultados são ordenados de acordo com a similaridade encontrada.
+5. O sistema apresenta uma lista de recomendações ao usuário.
+
+## 1.4. Definir os critérios de sucesso
+
+### Quando o projeto poderá ser considerado bem-sucedido?
+
+O projeto será considerado bem-sucedido quando conseguir apresentar recomendações coerentes com as características do conteúdo escolhido ou com as preferências informadas pelo usuário.
+
+Também serão considerados:
+- Integração de dados de filmes, séries e jogos.
+- Funcionamento adequado do algoritmo de recomendação.
+- Organização e qualidade dos dados utilizados.
+- Facilidade de utilização da interface.
+- Documentação clara do desenvolvimento.
+
+### Quais métricas poderão avaliar os resultados?
+
+| Métrica | Objetivo |
+|---|---|
+| Precision@K | Avaliar a proporção de recomendações relevantes entre as primeiras K sugestões |
+| Recall@K | Avaliar a proporção de conteúdos relevantes encontrados entre as primeiras K sugestões |
+| NDCG@K | Avaliar a qualidade da ordenação das recomendações, considerando a relevância dos resultados |
+
+As métricas serão utilizadas quando houver um conjunto de referência que permita identificar quais recomendações são relevantes. A similaridade do cosseno também será analisada, mas não será considerada, isoladamente, uma comprovação da satisfação do usuário.
+
+## 1.5. Elaborar o planejamento do projeto
+
+### Quais serão as principais etapas?
+
+| Etapa | Atividade |
+|---|---|
+| 1 | Entendimento do negócio |
+| 2 | Coleta e compreensão dos dados |
+| 3 | Preparação e tratamento dos dados |
+| 4 | Construção do modelo de recomendação |
+| 5 | Avaliação dos resultados |
+| 6 | Desenvolvimento da aplicação e disponibilização |
+
+### Qual metodologia será utilizada?
+
+Será utilizada a metodologia **CRISP-DM (Cross Industry Standard Process for Data Mining)**, organizada em seis fases:
+
+1. Entendimento do Negócio (*Business Understanding*).
+2. Entendimento dos Dados (*Data Understanding*).
+3. Preparação dos Dados (*Data Preparation*).
+4. Modelagem (*Modeling*).
+5. Avaliação (*Evaluation*).
+6. Implantação (*Deployment*).
+
+O desenvolvimento seguirá essas fases de maneira organizada, permitindo documentar as decisões e os resultados de cada etapa.
+
+---
+
+## Conclusão da fase
+
+O EntreTendo tem como proposta desenvolver uma solução de recomendação de entretenimento que integre filmes, séries e jogos em um único projeto.
+
+A partir da filtragem baseada em conteúdo, pretende-se utilizar características dos itens para identificar semelhanças e apresentar recomendações personalizadas.
+
+O projeto também servirá como aplicação prática de conceitos de Ciência de Dados e Aprendizado de Máquina, demonstrando desde a coleta e preparação dos dados até a construção, avaliação e disponibilização de um sistema de recomendação.
+
+**Próxima fase:** Entendimento dos Dados (*Data Understanding*).

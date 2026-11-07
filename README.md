@@ -1,3 +1,3 @@
-# Ciencia_Dados_Aprendizagem_Maquina
+# Ciência de Dados & Aprendizagem de Máquina
 
-Projetos de Dados
+### Projetos de Dados | Data Science | Machine Learning

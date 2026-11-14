@@ -1,0 +1,43 @@
+{
+  "modelo": "Regressão logística",
+  "parametros": {
+    "modelo__C": 1
+  },
+  "limiar": 0.21,
+  "roc_auc_validacao": 0.8465,
+  "recall_validacao": 0.8515,
+  "atributos_fora_do_modelo": [
+    "MonthlyCharges",
+    "NumServicosAdicionais"
+  ],
+  "atributos_numericos": [
+    "tenure",
+    "TotalCharges"
+  ],
+  "atributos_categoricos": [
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod",
+    "FaixaTenure"
+  ],
+  "premissas_negocio": {
+    "custo_contato": 50.0,
+    "taxa_sucesso": 0.3,
+    "meses_horizonte": 12
+  },
+  "versao_scikit_learn": "1.9.1",
+  "semente": 42
+}

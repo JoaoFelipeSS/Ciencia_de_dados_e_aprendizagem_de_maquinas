@@ -1,2 +1,13 @@
 __pycache__/
 .ipynb_checkpoints/
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
